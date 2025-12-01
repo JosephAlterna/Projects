@@ -1,0 +1,42 @@
+/* Requirement 4: Custom Color Scheme */
+body {
+  background-color: #f4f4f9; /* Light grey background */
+  font-family: 'Work Sans', sans-serif; /* Using the font you linked! */
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-family: 'Abril Fatface', cursive; /* Using your fancy font */
+}
+
+/* Table Styling */
+table {
+  width: 80%;
+  margin: 0 auto; /* Centers the table */
+  border-collapse: collapse; /* Removes double borders */
+  background-color: white;
+}
+
+th, td {
+  border: 2px solid #2c3e50;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+/* Requirement 5: Custom Styles for Code */
+.code-snippet {
+  font-family: 'Courier New', monospace; /* Monospace font */
+  background-color: #e8e8e8; /* Different background color */
+  color: #d63384; /* Highlight color for the tag */
+  font-weight: bold;
+  border-radius: 4px; /* Optional: rounds the corners */
+  text-align: center;
+}
